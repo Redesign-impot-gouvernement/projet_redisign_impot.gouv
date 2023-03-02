@@ -6,6 +6,10 @@ html,body {
     flex-wrap: wrap;
     background:#E8E8E8 ;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 header {
     display: flex;
@@ -107,6 +111,7 @@ header {
     transform: translate(-50% -50%);
     border: 1px solid black ;
     border-radius: 15px;
+    background: white;
 }
 h2{
     text-align: center;
@@ -137,6 +142,9 @@ form{
    bottom: 120px;
    left: 120px;
 }
+.login-box .forgot a {
+    text-decoration: #185184 underline;
+}
 .btn-form{
     margin-top: 10px;
     display: flex;
@@ -151,7 +159,7 @@ button{
     padding: 10px;
     
 }
-button:hover{
+.btn:hover{
     background:#185184;
 }
 .login-box .user-box label{

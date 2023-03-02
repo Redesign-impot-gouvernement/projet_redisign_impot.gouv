@@ -79,4 +79,19 @@ section {
     width: 80%;
     margin-top: 6%;
     border-radius: 5px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
+
+.doc {
+    height: 80%;
+    margin-left: 20px;
+    width: 15%;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: #1A7AAC;
+
+}
+

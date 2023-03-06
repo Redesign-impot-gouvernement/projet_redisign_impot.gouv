@@ -64,12 +64,27 @@ header {
     height: 10%;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+#identite {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 400;
+}
+
+#option{
+    border: 0;
+    background-color: #E8E8E8;
+    cursor: pointer;
     position: relative;
-    top: 30px;
+    left: 1rem;
+}
+
+#option > img {
+    height: 2rem;
 }
 
 .doc_area {
@@ -85,8 +100,8 @@ section {
 
     background-color: white ;
     border: black 2px solid;
-    height: 50%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     border-radius: 5px;
 
     display: flex;
@@ -110,6 +125,9 @@ section {
 
 .nom_zones {
     display: flex;
+    position: relative;
+    left: 3rem;
+    bottom: 1rem;
     width: 80%;
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
@@ -164,3 +182,36 @@ section {
  position: relative;
  bottom: 100px;
 }
+
+#left_btn {
+   right: 1rem;
+}
+
+#right_btn {
+    rotate: 180deg;
+    left: 1rem;
+}
+
+.section_area {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigate_btn {
+    transition: 0.1s;
+    box-sizing:content-box;
+    width: 2rem;
+    height: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navigate_btn:hover {
+    background-color: #9CC3DE;
+}
+

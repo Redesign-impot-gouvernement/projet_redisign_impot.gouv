@@ -103,7 +103,16 @@ section {
     height: 100%;
     width: 100%;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
 
+.div_inner_section {
+    transition: 0.2s;
+    position: relative;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
 }
@@ -183,11 +192,11 @@ section {
  bottom: 100px;
 }
 
-#left_btn {
+.left_btn {
    right: 1rem;
 }
 
-#right_btn {
+.right_btn {
     rotate: 180deg;
     left: 1rem;
 }

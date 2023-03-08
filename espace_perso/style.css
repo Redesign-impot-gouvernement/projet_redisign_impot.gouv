@@ -1,0 +1,226 @@
+html,body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: black 2px solid;
+    padding-bottom: 15px;
+}
+
+.logo_gouv {
+    height: 90%;
+    margin: 15px;
+}
+
+#help {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    cursor: pointer;
+    border: 0px;
+    background-color: #FFFFFF;
+
+}
+
+.text_help {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.logo_help {
+    height: 40%;
+    margin-left: 5px;
+}
+
+.background {
+    background-color: #E8E8E8;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bienvenue {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+#identite {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#option{
+    border: 0;
+    background-color: #E8E8E8;
+    cursor: pointer;
+    position: relative;
+    left: 1rem;
+}
+
+#option > img {
+    height: 2rem;
+}
+
+.doc_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+section {
+
+    background-color: white ;
+    border: black 2px solid;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.div_inner_section {
+    transition: 0.2s;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.doc {
+    height: 80%;
+    margin-left: 20px;
+    width: 15%;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: #1A7AAC;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.nom_zones {
+    display: flex;
+    position: relative;
+    left: 3rem;
+    bottom: 1rem;
+    width: 80%;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.description {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.area_on_doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+.area_declare {
+    display: flex;
+    background-color: #9CC3DE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    height: 30%;
+    width: 89%;
+}
+
+.area_pay {
+    display: flex;
+    background-color: #9CC3DE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 10px;
+    height: 30%;
+    width: 89%;
+}
+
+.text_inner_doc {
+    margin-left: 5px;
+}
+
+#locaux {
+ position: relative;
+ bottom: 100px;
+}
+
+.left_btn {
+   right: 1rem;
+}
+
+.right_btn {
+    rotate: 180deg;
+    left: 1rem;
+}
+
+.section_area {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigate_btn {
+    transition: 0.1s;
+    box-sizing:content-box;
+    width: 2rem;
+    height: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navigate_btn:hover {
+    background-color: #9CC3DE;
+}
+

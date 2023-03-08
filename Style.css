@@ -287,7 +287,7 @@ button{
     border: 1px solid black;
     background: white;
     width: 800px;
-    height: 850px;
+    height: 750px;
     top: 19.5%;
     left: 19%;
     padding: 10px;
@@ -380,15 +380,35 @@ button{
     font-size: 20px;
 }
 .condition{
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 45px;
+   position: absolute;
+   bottom: 100px;
+   left: 65px;
+ 
 }
 .submit {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
+    position: absolute;
+    bottom: 99px;
+    right: 65px;
 }
+.box-formulaire .créer{
+    border-radius: 10px;
+    background-color: #E31805;
+    color: white;
+
+}
+.box-formulaire .submit .send{
+    background: red;
+    color: white;
+    border: 1px solid white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+  
+}
+.box-formulaire .submit .send :hover{
+    background: #185184;
+}
+
 
 
 
